@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+main {
+    background-image: url("./images/bae.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+
+/* .header header {
+    display: flex;
+} */
+
+.left {
+    /* border: 1px solid red;*/
+    display: inline-block;
+}
+
+.mid {
+    /* border: 1px solid blue;*/
+    display: inline-block;
+    width: 507px;
+    margin-left: 100px;
+    vertical-align: top;
+    margin-top: 14px;
+}
+
+.right {
+    /* border: 1px solid green;*/
+    display: inline-block;
+    float: right;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+audio {
+    display: none;
+}
+
+.navbar li {
+    /* display: inline-block; */
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.left img {
+    height: 60px;
+    width: 117px;
+    filter: invert(97%);
+}
+
+.navbar li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .active,
+.navbar li>a:hover {
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+h2 {
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+button.btn {
+    font-family: 'Baloo Bhai', cursive;
+    width: 113px;
+    height: 37px;
+    margin-top: 25px;
+    margin-right: 4px;
+    font-size: 21px;
+    border-radius: 11px;
+    background-color: #c79d9d;
+}
+
+input.input {
+    width: 223px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-shadow: 3px 2px 2px white;
+    font-size: 39px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+marquee {
+    width: 490px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form div {
+    margin-top: 5%;
+    border: 5px solid white;
+    width: 500px;
+    border-radius: 20px;
+    height: auto;
+    padding: 20px;
+}
+
+label {
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+}
+
+.form-btn {
+    font-family: 'Baloo Bhai', cursive;
+    width: 50%;
+    height: 37px;
+    margin-left: 117px;
+    margin-top: 22px;
+    font-size: 21px;
+    border-radius: 11px;
+    background-color: #c79d9d;
+}
+
+input.form-input {
+    width: 90%;
+    height: 40px;
+    background-color: azure;
+    margin: 8px 24px;
+    color: black;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 21px;
+    padding: 10px;
+}
+
+article {
+    color: black;
+    margin: 0px 99px;
+    height: auto;
+    text-align: center;
+}
+
+h2#art_heading {
+    font-size: 37px;
+    padding-top: 34px;
+}
+
+section {
+    background: url("./images/article-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
